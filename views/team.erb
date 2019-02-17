@@ -5,8 +5,17 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
+  <h1><%= "Team Name: #{@param_hash['name']}" %></h1>
+  <ul>
+    <li><%= "Coach: #{@param_hash['coach']}" %></li>
+  </ul>
+  <ul>
+    <li><%= "Point Guard: #{@param_hash['pg']}"%></li>
+    <li><%= "Shooting Guard: #{@param_hash['sg']}"%></li>
+    <li><%= "Small Forward: #{@param_hash['sf']}"%></li>
+    <li><%= "Power Forward: #{@param_hash['pf']}"%></li>
+    <li><%= "Center: #{@param_hash['c']}"%></li>
+  </ul>
 
  </body>
 </html>
